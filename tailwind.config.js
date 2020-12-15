@@ -1,12 +1,17 @@
-const colors = require("tailwindcss/colors")
+// const colors = require("tailwindcss/colors")
 
 module.exports = {
   purge: ["public/**/*.html", "src/**/*.tsx"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      pop: 'Poppins'
+    },
     extend: {
       colors: {
-        teal: colors.teal,
+        wine: '#942B32',
+        black: '#000',
+        pink: '#FFE8EA'
       },
     },
   },
