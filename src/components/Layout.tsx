@@ -7,7 +7,7 @@ interface Props {
 
 
 export default ({ children }: Props) => {
-    return <div className=" m-auto p-16" >
+    return <div className=" m-auto p-36" >
 
         <NavBar />
 

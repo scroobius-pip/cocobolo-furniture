@@ -16,7 +16,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      display: ['group-hover'],
+      zIndex: ['hover']
+    },
   },
   plugins: [],
 }
