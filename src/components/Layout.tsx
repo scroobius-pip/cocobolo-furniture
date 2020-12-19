@@ -1,5 +1,7 @@
 import React, { ReactNode } from 'react';
+import Footer from './Footer';
 import NavBar from './NavBar';
+
 
 interface Props {
     children: ReactNode
@@ -8,12 +10,8 @@ interface Props {
 
 export default ({ children }: Props) => {
     return <div className=" m-auto p-36" >
-
         <NavBar />
-
         <main className="mt-28" >{children}</main>
-        <footer>
-
-        </footer>
+        <Footer />
     </div>
 }

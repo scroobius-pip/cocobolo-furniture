@@ -10,12 +10,14 @@ interface Props {
 }
 
 export default (props: Props) => {
+    const imageExists = !!props?.image
+
     return <section className='flex justify-between mb-44'>
-        <div className='w-3/5 max-w-xl'>
+        <div className={`${imageExists ? 'w-3/5 max-w-xl' : 'w-full'}`}>
             {props.children}
         </div>
-        {props.image && <div className='w-2/5 max-w-lg'>
-            <SectionPicture image={props.image} />
+        {imageExists && <div className='w-2/5 max-w-lg'>
+            <SectionPicture image={props?.image ?? ''} />
         </div>}
     </section>
 }

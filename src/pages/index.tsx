@@ -15,9 +15,11 @@ function Index(_props: Props): ReactElement {
       <Section image="https://www.decor.ng/wp-content/uploads/2018/06/technology-interior-design.jpg">
         <div className='w-4/5 max-w-xl'>
           <h1 className='text-5xl leading-relaxed'>Pushing Conventional <span className='text-wine font-medium'>Boundaries</span>, Turning Space Into <span className='text-wine font-medium'>Experiences.</span></h1>
-          <Medium className='leading-relaxed mt-10'>
-            We design and create spaces from residential homes to office spaces with a focus on functionality and aesthetic appeal.
+          <h3 className='mt-10'>
+            <Medium className='leading-relaxed'>
+              We design and create spaces from residential homes to office spaces with a focus on functionality and aesthetic appeal.
          </Medium>
+          </h3>
         </div>
       </Section>
       <Section image="https://www.decor.ng/wp-content/uploads/2019/11/TCDX3141.jpg">
@@ -29,11 +31,14 @@ function Index(_props: Props): ReactElement {
       <Section image="https://www.decor.ng/wp-content/uploads/2020/08/FIN-2-1.jpg">
         <div className='w-4/5 max-w-xl'>
           <SectionHeading title='About' />
-          <Medium className='leading-relaxed mt-10'>
-            Cocobolo offers you a catalogue of high quality, and affordable pieces of furniture, homeware and interior decor items across all states in Nigeria.
-</Medium>
+          <h3 className='mt-10'>
+            <Medium className='leading-relaxed '>
+              Cocobolo offers you a catalogue of high quality, and affordable pieces of furniture, homeware and interior decor items across all states in Nigeria.</Medium>
+          </h3>
+
         </div>
       </Section>
+
     </Layout>
   )
 }
