@@ -12,7 +12,7 @@ interface Props {
 export default (props: Props) => {
     const imageExists = !!props?.image
 
-    return <section className='flex justify-between mb-44'>
+    return <section className='flex w-full justify-between mb-44'>
         <div className={`${imageExists ? 'w-3/5 max-w-xl' : 'w-full'}`}>
             {props.children}
         </div>
