@@ -30,7 +30,7 @@ const Category = ({ data, title }: { data: MenuItemData[], title: string }) => {
             {
                 data.map((props) => <MenuItem {...props} key={props.text} />)
             }
-            <MenuItem className='font-bold mt-4' text='More>' to={`/${title}`} />
+            <MenuItem className='font-bold mt-4' text='More>' to={`/catalog#${title}`} />
         </ul>
     </li>
 }

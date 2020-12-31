@@ -4,7 +4,7 @@ import MenuItem from './MenuItem'
 
 export default () => {
     return <nav className="flex justify-between">
-        <a href="#">
+        <a href="/">
             <Logo className="h-24" />
         </a>
         <Navigation />

@@ -1,2 +1,0 @@
-const Item = () => { }
-const Grid = () => { }

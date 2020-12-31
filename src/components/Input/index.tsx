@@ -24,7 +24,7 @@ const TextInput = (props: Props) => {
             <Input
                 id={props.label}
                 {...props}
-                className={`outline-none text-black opacity-50 transition-all hover:opacity-100 focus-within:opacity-100 w-full bg-transparent border-b-4  text-lg p-0.5 pl-0  border-black ${props?.className}`}
+                className={`outline-none text-black transition-all hover:opacity-100 focus-within:opacity-100 w-full bg-transparent border-b-2  text-lg p-0.5 pl-0  border-black ${props?.className}`}
                 placeholder={props.label}
                 spellCheck={false}
             />

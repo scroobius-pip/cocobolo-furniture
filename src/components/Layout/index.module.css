@@ -1,0 +1,9 @@
+.layout {
+    grid-template-rows: auto auto 1fr ;
+}
+
+.footer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+}

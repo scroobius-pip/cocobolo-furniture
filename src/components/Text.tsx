@@ -6,21 +6,17 @@ interface Props {
 }
 
 
-
-
 export const XLarge = ({ children, className }: Props) => {
     return <span className={`text-5xl  ${className}`}>
         {children}
     </span>
 }
+
 export const Large = ({ children, className }: Props) => {
     return <span className={`text-3xl  ${className}`}>
         {children}
     </span>
 }
-
-
-
 
 export const Medium = ({ children, className }: Props) => {
     return <span className={`text-xl  ${className}`}>
