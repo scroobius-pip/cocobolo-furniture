@@ -35,7 +35,7 @@ const catalogData: CategoryData = {
     ],
     Other: [
 
-        { title: 'Display Units', to: '#' },
+        { title: 'Display Units', to: './category' },
     ]
 }
 

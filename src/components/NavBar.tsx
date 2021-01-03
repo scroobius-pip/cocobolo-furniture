@@ -13,7 +13,6 @@ export default () => {
 
 const Navigation = () => {
     return <ul>
-        <MenuItem to='#' text='Popular' />
         <MenuItem to='#catalog' text='Catalog' />
         <MenuItem to='#' text='About' />
         <MenuItem to='#' text='Contact' />
