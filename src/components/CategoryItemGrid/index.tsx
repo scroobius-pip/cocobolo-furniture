@@ -1,14 +1,10 @@
 import React from 'react'
+import styles from './index.module.css'
 
-const itemStyles = {
-    width: '15vw',
-    minWidth: 200,
-    height: '15vw',
-    minHeight: 200,
-}
+
 
 const Item = () => {
-    return <div className='bg-pink m-1 cursor-pointer' style={itemStyles}>
+    return <div className={`bg-pink cursor-pointer ${styles.item}`} >
 
     </div>
 }

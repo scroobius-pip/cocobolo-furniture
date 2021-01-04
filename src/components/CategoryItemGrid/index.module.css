@@ -1,0 +1,15 @@
+.item {
+    width: 15vw;
+    min-width: 200px;
+    height: 15vw;
+    min-height: 200px;
+    margin: 0.25rem;
+}
+
+@media (max-width:640px) {
+  .item {
+    width:90vw;
+    height: 90vw;
+  
+  }
+}
