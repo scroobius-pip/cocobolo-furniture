@@ -18,7 +18,7 @@ export default () => {
                 <ul>
                     <MenuItem
                         className=''
-                        text='< Back to Catalog'
+                        text='<Back to Catalog'
                         to='/catalog'
                     />
                 </ul>
@@ -29,7 +29,11 @@ export default () => {
 
          </Medium>
             </h3>
-            <CategoryItemGrid />
+            <CategoryItemGrid items={[
+                { image: 'https://images-na.ssl-images-amazon.com/images/I/714X5CMZO9L._AC_SL1500_.jpg', to: '#' },
+
+            ]}
+            />
 
         </section>
     </Layout>

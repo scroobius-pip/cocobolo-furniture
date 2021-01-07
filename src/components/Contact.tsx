@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 import { TextInput } from './Input'
 import Logo from './Logo'
 import MenuItem from './MenuItem'
@@ -28,12 +29,7 @@ export default () => {
                 className='mb-8'
                 label='Message'
             />
-            <input
-                className='py-4 px-6 w-full sm:w-min mr-0 ml-auto block bg-black text-white outline-none cursor-pointer'
-                type='submit'
-            >
-
-            </input>
+            <Button className='sm:w-min mr-0 ml-auto w-full' />
         </form>
     </div>
 }

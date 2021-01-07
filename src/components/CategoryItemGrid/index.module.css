@@ -3,7 +3,10 @@
     min-width: 200px;
     height: 15vw;
     min-height: 200px;
-    margin: 0.25rem;
+    /* margin: 0.25rem; */
+    
+    filter: hue-rotate(-10deg) brightness(1.05) ;
+
 }
 
 @media (max-width:640px) {
@@ -12,4 +15,25 @@
     height: 90vw;
   
   }
+}
+
+
+.item {
+  position: relative;
+}
+
+.item:after { 
+  transition: all 3s;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+
+}
+
+.item:hover:after{
+  position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+
+  background: linear-gradient(to right, rgba(255, 30, 45, 0.2) 0%, rgba(255, 30, 45, 0.2) 100%);
+
+  mix-blend-mode: darken;
+
 }
