@@ -29,7 +29,7 @@ export default () => {
                 className='mb-8'
                 label='Message'
             />
-            <Button className='sm:w-min mr-0 ml-auto w-full' />
+            <Button text='Submit' className='sm:w-min mr-0 ml-auto w-full' />
         </form>
     </div>
 }

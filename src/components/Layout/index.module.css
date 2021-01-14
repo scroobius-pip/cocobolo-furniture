@@ -3,7 +3,7 @@
 }
 
 .footer {
-    margin-top: 20vh;
+    margin-top: 400px;
     grid-row-start: 3;
     grid-row-end: 4;
     width: 100%;

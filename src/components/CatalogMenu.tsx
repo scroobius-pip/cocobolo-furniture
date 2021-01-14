@@ -13,15 +13,15 @@ interface MenuData {
 
 const menuData: MenuData = {
     Home: [
-        { text: 'Beds', to: '#' },
-        { text: 'Cupboards', to: '#' },
-        { text: 'Drawers', to: '#' }
+        { text: 'Beds', to: '/category' },
+        { text: 'Cupboards', to: '/category' },
+        { text: 'Drawers', to: '/category' }
     ],
     Office: [
-        { text: 'Office Chairs', to: '#' },
-        { text: 'Reception Counters', to: '#' }
+        { text: 'Office Chairs', to: '/category' },
+        { text: 'Reception Counters', to: '/category' }
     ],
-    Other: [{ text: 'Display Units', to: '#' }]
+    Other: [{ text: 'Display Units', to: '/category' }]
 }
 
 const Category = ({ data, title }: { data: MenuItemData[], title: string }) => {

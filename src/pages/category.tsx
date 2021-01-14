@@ -30,7 +30,7 @@ export default () => {
          </Medium>
             </h3>
             <CategoryItemGrid items={[
-                { image: 'https://images-na.ssl-images-amazon.com/images/I/714X5CMZO9L._AC_SL1500_.jpg', to: '#' },
+                { image: 'https://images-na.ssl-images-amazon.com/images/I/714X5CMZO9L._AC_SL1500_.jpg', to: '/product' },
 
             ]}
             />

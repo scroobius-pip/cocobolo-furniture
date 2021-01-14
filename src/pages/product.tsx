@@ -37,7 +37,7 @@ export default () => {
                     </p>
                     <div className='flex items-center mt-12 justify-end md:justify-start'>
                         <Small className='mr-8'>NGN 233,999</Small>
-                        <Button></Button>
+                        <Button text='Inquire'></Button>
                     </div>
                 </div>
             </section>

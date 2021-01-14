@@ -18,24 +18,24 @@ interface CategoryData {
 
 const catalogData: CategoryData = {
     Home: [
-        { title: 'Beds', to: '#' },
-        { title: 'Cupboards', to: '#' },
-        { title: 'Drawers', to: '#' },
-        { title: 'Sofas', to: '#' },
-        { title: 'Consoles', to: '#' },
-        { title: 'Doors', to: '#' },
+        { title: 'Beds', to: '/category' },
+        { title: 'Cupboards', to: '/category' },
+        { title: 'Drawers', to: '/category' },
+        { title: 'Sofas', to: '/category' },
+        { title: 'Consoles', to: '/category' },
+        { title: 'Doors', to: '/category' },
     ],
     Office: [
-        { title: 'Office Chairs', to: '#' },
+        { title: 'Office Chairs', to: '/category' },
 
-        { title: 'Reception Counters', to: '#' },
-        { title: 'Pedestals', to: '#' },
-        { title: 'Filling Cabinets', to: '#' },
-        { title: 'Workstations', to: '#' },
+        { title: 'Reception Counters', to: '/category' },
+        { title: 'Pedestals', to: '/category' },
+        { title: 'Filling Cabinets', to: '/category' },
+        { title: 'Workstations', to: '/category' },
     ],
     Other: [
 
-        { title: 'Display Units', to: './category' },
+        { title: 'Display Units', to: '/category' },
     ]
 }
 
