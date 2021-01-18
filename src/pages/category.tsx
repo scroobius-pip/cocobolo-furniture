@@ -6,7 +6,7 @@ import MenuItem from '../components/MenuItem'
 import Section from '../components/Section'
 import SectionHeading from '../components/Section/SectionHeading'
 import SectionPicture from '../components/Section/SectionPicture'
-import { Medium } from '../components/Text'
+import { Medium, Small } from '../components/Text'
 
 
 export default () => {
@@ -24,10 +24,10 @@ export default () => {
                 </ul>
             </div>
             <h3 className='mt-10 max-w-4xl mb-16'>
-                <Medium className='leading-relaxed'>
+                <Small className='leading-relaxed'>
                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
 
-         </Medium>
+         </Small>
             </h3>
             <CategoryItemGrid items={[
                 { image: 'https://images-na.ssl-images-amazon.com/images/I/714X5CMZO9L._AC_SL1500_.jpg', to: '/product' },
