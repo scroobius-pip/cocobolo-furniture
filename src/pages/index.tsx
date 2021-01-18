@@ -26,7 +26,7 @@ function Index(_props: Props): ReactElement {
       <Section className='mb-24'>
         <SectionHeading title='Catalog' />
         <div className='w-full p-12 pl-0 mt-12 relative'>
-          <div style={{ backgroundImage: `url('https://www.decor.ng/wp-content/uploads/2019/11/TCDX3141.jpg')`, backgroundSize: 'cover' }} className='absolute h-full w-2/3 right-0 opacity-75'></div>
+          <div style={{ backgroundImage: `url('https://www.decor.ng/wp-content/uploads/2019/11/TCDX3141.jpg')`, backgroundSize: 'cover' }} className='absolute h-full w-2/3 right-0 opacity-60'></div>
           <div className='pl-12'>
             <Dropdown />
           </div>

@@ -14,7 +14,7 @@ interface Props {
 
 export default (props: Props) => {
     return <article className='mb-8 -m-4 sm:m-0'>
-        <h2 className='font-medium mb-4 m-4 sm:ml-0'>
+        <h2 className='font-bold mb-4 m-4 sm:ml-0'>
             <Medium>{props.category}</Medium>
         </h2>
         <div className={`${style.grid} bg-pink pt-4 pb-8 pl-8 pr-8`}>

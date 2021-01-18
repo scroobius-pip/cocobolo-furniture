@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Section from '../components/Section'
 import SectionHeading from '../components/Section/SectionHeading'
 import SectionPicture from '../components/Section/SectionPicture'
-import { Medium } from '../components/Text'
+import { Medium, Small } from '../components/Text'
 
 interface CategoryItemData {
     title: string
@@ -47,9 +47,9 @@ export default () => {
                 <SectionHeading title='Catalog' />
             </div>
             <h3 className='mt-10 max-w-4xl mb-16'>
-                <Medium className='leading-relaxed'>
+                <Small className='leading-relaxed'>
                     We design and create spaces from residential homes to office spaces with a focus on functionality and aesthetic appeal.
-         </Medium>
+         </Small>
             </h3>
 
             {Object.entries(catalogData).map(([title, data]) =>
