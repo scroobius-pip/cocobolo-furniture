@@ -8,12 +8,14 @@ type Nullable<T> = T | null
 interface Props {
     children: ReactNode
     image?: string
+    className?: string
+    style?: React.CSSProperties
 }
 
 export default (props: Props) => {
     const imageExists = !!props?.image
 
-    return <section className={styles.section}>
+    return <section style={props?.style} className={`${styles.section} ${props?.className}`}>
         <div className='h-full'>
             {props.children}
         </div>

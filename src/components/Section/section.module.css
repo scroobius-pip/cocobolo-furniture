@@ -3,6 +3,6 @@
     grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
     margin-bottom: 11rem;
     grid-gap: 3rem;
-    height:80vh;
+ 
    
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuItem from './MenuItem'
-import { Medium } from './Text'
+import { Large, Medium } from './Text'
 
 interface MenuItemData {
     text: string
@@ -25,10 +25,10 @@ const menuData: MenuData = {
 }
 
 const Category = ({ data, title }: { data: MenuItemData[], title: string }) => {
-    return <li className='relative hover:z-30 z-0 hover:text-wine group'><Medium className='cursor-pointer leading-loose font-medium'>{title}</Medium>
+    return <li className='relative hover:z-30 z-0 hover:text-wine group'><Medium className='cursor-pointer leading-loose font-bold'>{title}</Medium>
         <ul className='absolute  left-28 top-2 text-black opacity-0  transition-all hover:z  group-hover:opacity-100'>
             {
-                data.map((props) => <MenuItem {...props} key={props.text} />)
+                data.map((props) => <MenuItem className='text-lg' {...props} key={props.text} />)
             }
             <MenuItem className='font-bold mt-4' text='More>' to={`/catalog#${title}`} />
         </ul>
@@ -36,7 +36,7 @@ const Category = ({ data, title }: { data: MenuItemData[], title: string }) => {
 }
 
 export default () => {
-    return <ul className='mt-24'>
+    return <ul className='mt-12'>
         {Object.entries(menuData).map(([title, data]) =>
             <Category
                 data={data}
